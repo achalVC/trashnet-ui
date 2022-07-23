@@ -117,6 +117,11 @@ export default () => {
                   Login 
                 </Button>
 
+                <Button variant="secondary" as={Link} to={Routes.Manufconfirm.path} className="text-dark me-3">
+                  Login 
+                </Button>
+                
+
                 <Button variant="secondary" as={Link} to={Routes.DashboardOverview.path} className="text-dark me-3">
                   Explore ledger <FontAwesomeIcon icon={faExternalLinkAlt} className="d-none d-sm-inline ms-1" />
                 </Button>
